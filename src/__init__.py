@@ -1,7 +1,9 @@
-# En src/__init__.py
-from .data_understanding import load_data, explore_data, describe_data, qualify_data
-from .data_preparation import rename_columns_to_snake, to_snake_case
+"""
+Core module for bank churn prediction
 
-__all__ = ['load_data', 'explore_data', 'describe_data', 'qualify_data', 
-            'rename_columns_to_snake', 'to_snake_case'
-        ]
+Exports only essential functions for class balancing and model evaluation.
+"""
+
+from .core import error_count, evaluate_model, upsample, downsample
+
+__all__ = ['error_count', 'evaluate_model', 'upsample', 'downsample']

@@ -18,6 +18,12 @@ lib/
 lib64/
 parts/
 sdist/
+
+# 🤖 Agent Framework (Local Development Only - NOT for Git)
+# These are development tools for maintaining the project
+# They are reusable across projects and should NOT be versioned
+.github/agents/
+LINKEDIN_CV_GUIDE.md
 var/
 wheels/
 share/python-wheels/
@@ -205,3 +211,24 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# 🔒 Data Security - NEVER commit real data
+# Raw data may contain PII (Personally Identifiable Information)
+data/raw/*.csv
+data/raw/*.xlsx
+data/raw/*.json
+
+# Processed data still contains sensitive info
+data/processed/*.csv
+data/processed/*.xlsx
+data/processed/*.pkl
+data/processed/*.pickle
+data/processed/*.joblib
+
+# Models trained on real data
+data/processed/*.pkl
+data/processed/*.h5
+data/processed/*.pt
+
+# Keep sample data for demo only
+!data/sample/
