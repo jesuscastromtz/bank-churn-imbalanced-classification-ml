@@ -64,13 +64,11 @@ jupyter notebook notebooks/
 2. `notebooks/2_solucion_modelo.ipynb` → Construye la solución
 3. `notebooks/3_resultados.ipynb` → Ve los resultados
 
-**Listo.** Recorrido completo en <5 minutos. Las visualizaciones se guardan automáticamente en `visualizations/`.
-
 ---
 
 ## 📚 Qué Incluye
 
-### 📊 Visualizaciones (Auto-Generadas)
+### 📊 Visualizaciones
 1. **1_class_distribution.png** - Visualización del desbalance
 2. **2_model_comparison.png** - Comparación de modelos
 3. **3_confusion_matrix.png** - Desglose de predicciones
@@ -120,14 +118,28 @@ Todas se generan automáticamente al ejecutar los notebooks en `visualizations/`
 
 ---
 
-## 💼 Para Aplicaciones de Trabajo & LinkedIn
+## 💼 Habilidades Demostradas en Este Proyecto
 
-Ver **LINKEDIN_CV_GUIDE.md** para:
-- Elevator pitch (30 segundos)
-- Bullets para CV (3 opciones)
-- Template de post LinkedIn
-- Respuestas para entrevistas (método STAR)
-- Keywords para sistemas ATS
+**Para Reclutadores & Hiring Managers:**
+
+### 🎯 Competencias Técnicas
+- **Machine Learning:** Random Forest, class imbalancing, hyperparameter tuning
+- **Métricas de Evaluación:** F1-Score, Recall, Precision, AUC-ROC (selección contextual)
+- **Procesamiento de Datos:** Feature engineering, encoding, balanceo de clases
+- **Python Stack:** pandas, numpy, scikit-learn, matplotlib, seaborn
+- **MLOps Básico:** Tests automatizados, reproducibilidad, modularización
+
+### 💡 Competencias de Negocio
+- **Análisis de ROI:** Cuantificación de impacto financiero ($40K/mes)
+- **Storytelling:** Comunicación técnica clara para stakeholders no-técnicos
+- **Priorización:** Focus en métricas de negocio (Recall > Precision en churn)
+- **Despliegue:** Estrategia de implementación y monitoreo
+
+### 📊 Resultados Medibles
+- ✅ **F1=0.62** (supera benchmark industria)
+- ✅ **69% Recall** (detecta 7 de cada 10 churners)
+- ✅ **ROI $480K anual** (conservador)
+- ✅ **<5 min reproducibilidad** (código production-ready)
 
 ---
 
@@ -165,6 +177,20 @@ bank-churn-imbalanced-classification-ml/
 
 ---
 
+## 🤝 Contacto Profesional
+
+**¿Buscas un Data Scientist con capacidad de entregar proyectos end-to-end?**
+
+Este proyecto demuestra:
+- ✅ Resolución de problemas de negocio con ML
+- ✅ Comunicación técnica clara (storytelling)
+- ✅ Código limpio y production-ready
+- ✅ Enfoque en ROI y métricas de negocio
+
 **Autor:** Jesús Castro  
-**¿Preguntas?** Abre un issue o [conéctate en LinkedIn](https://www.linkedin.com/in/jesuscastromtz)
+**LinkedIn:** [linkedin.com/in/jesuscastromtz](https://www.linkedin.com/in/jesuscastromtz)  
+**Email:** Disponible en perfil de LinkedIn  
+**Portfolio:** [github.com/jesuscastromtz](https://github.com/jesuscastromtz)
+
+📩 **Abierto a oportunidades** en Data Science, Machine Learning, y Analytics
 
